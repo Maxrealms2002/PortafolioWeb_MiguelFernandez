@@ -6,8 +6,21 @@
     box-sizing: border-box;
 }
 
+/* #383838
+   #3b3b3b
+   #393939
+   #3e3e3e
+   #292929
+   #333333
+   #313131
+*/
+
+body{
+    background-color: #333333;
+}
+
 nav{
-    background: #1D2951;
+    background: #292929;
     line-height: 80px;
     position: fixed;
     width: 100%;
@@ -37,18 +50,23 @@ nav ul li a{
     font-size: 20px;
     padding: 6px 15px;
     font-weight: 600;
-    background-color: rgb(55, 34, 246);
+    background-color: #B20317;
     border-radius: 3px;
 }
+
+/* 
+#B20317
+#ff1b2d
+*/
 nav ul li a:hover{
-    background-color: rgb(49, 27, 214);
+    background-color: #B20317;
     color: #fff;
     transition: 0.5s;
 }
 
 .side-menu{
     position: fixed;
-    background: #1D2951;
+    background: #292929;
     width: 250px;
     height: 100%;
     margin-top: 80px;
@@ -78,7 +96,7 @@ Elementos Menu
 }
 
 .side-menu a:hover{
-    background: rgb(20, 54, 156);
+    background: #B20317;
     padding-left: 20px;
 }
 
@@ -145,7 +163,7 @@ Pagina Responsiva
     .side-menu{
         width: 100%;
         text-align: center;
-        left: 100%;
+        left: 100;
         background-color: #4c516d;
         transition: all 0.5s;
     }
