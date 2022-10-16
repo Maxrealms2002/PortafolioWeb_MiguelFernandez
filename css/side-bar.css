@@ -67,14 +67,31 @@ nav ul li a:hover{
 
 }
 
+/****************
+Elementos Menu
+****************/
+
 .side-menu a{
     display: block;
     line-height: 60px;
-    color: #fff;
     transition: 0.5s;
 }
 
 .side-menu a:hover{
     background: rgb(20, 54, 156);
     padding-left: 20px;
+}
+
+.side-menu span{
+
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+.side-menu i{
+
+    font-size: 20px;
+    margin-left: 10px;
+    color: #fff;
 }
