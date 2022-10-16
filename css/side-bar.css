@@ -95,3 +95,74 @@ Elementos Menu
     margin-left: 10px;
     color: #fff;
 }
+
+/****************
+Funcion barra menu
+****************/
+nav .menu-bar{
+    float: right;
+    margin-top: 20px;
+    display: none;
+    margin-right: 20px;
+}
+
+#menu{
+    display: none;
+}
+
+/*******************
+Pagina Responsiva
+*******************/
+@media (max-width:850px){
+    .side-menu a span{
+        display: none;
+    }
+
+    .side-menu center{
+        display: none;
+    }
+
+    .side-menu {
+        width: 100px;
+    }
+
+    .side-menu a i{
+        display: block;
+        line-height: 80px;
+        text-align: center;
+        margin-left: 0;
+        font-size: 35px;
+        
+    }
+}
+
+@media (max-width:650px){
+    nav ul{
+        display: none;
+        
+    }
+
+    .side-menu{
+        width: 100%;
+        text-align: center;
+        left: 100%;
+        background-color: #4c516d;
+        transition: all 0.5s;
+    }
+
+    .side-menu a i{
+        display: none;
+    }
+
+    .side-menu a span{
+        display: block;
+    }
+
+    nav .menu-bar{
+        display: block;
+    }
+}
+
+#menu:checked ~ .side-menu{
+    left: 0;
+}
