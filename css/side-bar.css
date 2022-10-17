@@ -69,15 +69,19 @@ nav ul li a:hover{
     background: #292929;
     width: 250px;
     height: 100%;
-    margin-top: 80px;
+    margin-top: 0;
 }
+
+/* 
+ Logotipo
+*/
 
 .side-menu center img{
     height: 120px;
     width: 120px;
     border-radius: 50%;
     margin-top: 30px;
-    border: 3px solid #fff;
+    border: 3px solid #B20317;
 }
 
 .side-menu center h2{
@@ -103,7 +107,7 @@ Elementos Menu
 .side-menu span{
 
     font-size: 20px;
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin-left: 10px;
     color: #fff;
 }
@@ -128,6 +132,11 @@ nav .menu-bar{
 #menu{
     display: none;
 }
+
+
+/**********************
+Seccion Redes Sociales
+***********************/
 
 /*******************
 Pagina Responsiva
