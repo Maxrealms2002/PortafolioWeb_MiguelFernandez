@@ -6,14 +6,23 @@
     box-sizing: border-box;
 }
 
-/* #383838
-   #3b3b3b
-   #393939
-   #3e3e3e
-   #292929
-   #333333
-   #313131
-*/
+.titulo-seccion{
+    color: #ff1b2d;
+    font-size: 35px;
+}
+
+main{
+    
+    margin-left: 25%;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header, .idioma-menu, #idioma{
+    
+    display: inline-block;
+    
+}
 
 body{
     background-color: #333333;
@@ -69,7 +78,7 @@ nav ul li a:hover{
     background: #292929;
     width: 250px;
     height: 100%;
-    margin-top: 0;
+    
 }
 
 /* 
