@@ -154,10 +154,11 @@ nav ul li a:hover {
 .side-bar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   background: #292929;
   width: 200px;
-  height: 120%;
+  height: 100%;
   margin-top: -20px;
 }
 
@@ -180,7 +181,7 @@ Logotipo-Sidebar
 Elementos Menu
 ****************/
 .side-bar-contenedor{
-  background-color: #03b246;
+  margin-top: -100px;
 }
 
 .side-bar-contenedor a {
@@ -210,9 +211,7 @@ Elementos Menu
 /*Seccion Redes*/
 
 .side-bar-redes{
-  display: flex;
-  align-items: center;
-  background-color: #b20317;
+  padding-bottom: 1.5em;
 }
 
 .side-bar-redes a {
