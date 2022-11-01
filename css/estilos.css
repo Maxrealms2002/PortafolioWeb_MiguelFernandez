@@ -1,0 +1,90 @@
+/*Paleta de Colores
+#292929 - FONDO
+#ff1b2d - Titulos
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 400;
+  color: #fff;
+  background-color: #292929;
+  margin: 0;
+}
+
+/*Genericos*/
+.titulo-section {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 400;
+  color: #ff1b2d;
+}
+
+.botones {
+  display: inline-block;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.2rem;
+  border-radius: 0.3em;
+  color: #fff;
+  text-decoration: none;
+  padding: 1em;
+  margin: 0 0.5em 0 0;
+  background-color: #ff1b2d;
+}
+
+.botones:hover {
+  color: #ff1b2d;
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+/************
+Cavcecera
+*************/
+header {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  max-width: 1280px;
+}
+
+.idiomas-contenedor {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1em;
+}
+
+.boton-idioma {
+  display: inline-block;
+  width: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  border-radius: 0.3em;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #ff1b2d;
+  border-width: 0.2em;
+  text-decoration: none;
+  padding: 0.5em;
+  margin: 0 0.5em 0 0;
+  color: #ff1b2d;
+}
+
+#boton-es,
+#boton-en {
+  margin-right: 1.5em;
+}
+
+.boton-idioma:hover {
+  color: #fff;
+  border-color: #fff;
+  transition: 0.5s;
+}
