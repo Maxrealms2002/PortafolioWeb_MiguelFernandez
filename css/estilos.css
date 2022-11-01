@@ -1,6 +1,8 @@
 /*Paleta de Colores
-#292929 - FONDO
+#292929 - SIDE-BAR
+#333 - FONDO
 #ff1b2d - Titulos
+#B20317 - ROJO OSCURO
 */
 
 html {
@@ -13,11 +15,18 @@ html {
   box-sizing: inherit;
 }
 
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 400;
   color: #fff;
-  background-color: #292929;
+  background-color: #333;
   margin: 0;
 }
 
@@ -51,9 +60,11 @@ Cavcecera
 *************/
 header {
   display: flex;
-  width: 90%;
+  position: fixed;
+  width: 100%;
   margin-left: auto;
-  max-width: 1280px;
+  margin-top: -20px;
+
 }
 
 .idiomas-contenedor {
@@ -65,6 +76,7 @@ header {
 .boton-idioma {
   display: inline-block;
   width: 80px;
+  height: 40px;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   border-radius: 0.3em;
@@ -73,7 +85,6 @@ header {
   border-color: #ff1b2d;
   border-width: 0.2em;
   text-decoration: none;
-  padding: 0.5em;
   margin: 0 0.5em 0 0;
   color: #ff1b2d;
 }
@@ -81,6 +92,7 @@ header {
 #boton-es,
 #boton-en {
   margin-right: 1.5em;
+  background-color: #292929;
 }
 
 .boton-idioma:hover {
@@ -88,3 +100,166 @@ header {
   border-color: #fff;
   transition: 0.5s;
 }
+
+
+/************
+SIDEBAR
+*************/
+
+nav {
+  background: #292929;
+  line-height: 80px;
+  position: fixed;
+  width: 100%;
+}
+
+label {
+  line-height: 80px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 200;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+nav ul {
+  float: right;
+  margin: 0 10px;
+}
+
+nav ul li {
+  line-height: 80px;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 20px;
+  padding: 6px 15px;
+  font-weight: 600;
+  background-color: #b20317;
+  border-radius: 3px;
+}
+
+/* 
+#B20317
+#ff1b2d
+*/
+nav ul li a:hover {
+  background-color: #b20317;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background: #292929;
+  width: 200px;
+  height: 120%;
+  margin-top: -20px;
+}
+
+/*
+Logotipo-Sidebar
+*/
+.side-bar-logo center img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 30px;
+  border: 3px solid #b20317;
+}
+
+.side-bar-logo center h2 {
+  color: #fff;
+}
+
+/****************
+Elementos Menu
+****************/
+.side-bar-contenedor{
+  background-color: #03b246;
+}
+
+.side-bar-contenedor a {
+  display: block;
+  line-height: 60px;
+  transition: 0.5s;
+}
+
+.side-bar-contenedor a:hover {
+  background: #b20317;
+  padding-left: 20px;
+}
+
+.side-bar-contenedor span {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.side-bar-contenedor i {
+  font-size: 20px;
+  margin-left: 10px;
+  color: #fff;
+}
+
+/*Seccion Redes*/
+
+.side-bar-redes{
+  display: flex;
+  align-items: center;
+  background-color: #b20317;
+}
+
+.side-bar-redes a {
+  display: inline-flex;
+  margin: 5px;
+}
+
+.side-bar-redes span {
+  font-size: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.side-bar-redes i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.side-bar-redes a:hover, .side-bar-redes i:hover {
+  
+  color: #ff1b2d;
+  transition: 0.5s;
+  
+}
+
+
+
+
+
+
+/****************
+Funcion barra menu
+****************/
+nav .menu-bar {
+  float: right;
+  margin-top: 20px;
+  display: none;
+  margin-right: 20px;
+}
+
+#menu {
+  display: none;
+}
+
+
+
+/*******
+PRINCIPAL
+********\
