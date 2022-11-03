@@ -271,7 +271,6 @@ SECCION DE INICIO
   display: flex;
   width: 100%;
   flex-direction: row;
-  
 }
 
 .Inicio .triangle {
@@ -288,7 +287,7 @@ SECCION DE INICIO
 }
 
 /*Particulas*/
-#particles-js{
+#particles-js {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -305,7 +304,7 @@ SECCION DE INICIO
 }
 
 /*DIV Cabecera*/
-.header-section{
+.header-section {
   padding-left: 1em;
   padding-right: 1em;
   /*background-color: darkmagenta;*/
@@ -326,7 +325,6 @@ SECCION DE INICIO
   /*background-color: #1bff98;*/
 }
 
-
 /*Texto parrafo*/
 .texto-section {
   padding-left: 1em;
@@ -335,15 +333,15 @@ SECCION DE INICIO
   /*background-color: coral;*/
 }
 
-.texto-section h4{
+.texto-section h4 {
   font-size: 1.5em;
   /*background-color: rgb(100, 80, 255);*/
 }
 
-.texto-section p{
+.texto-section p {
   margin-top: 0px;
   font-size: 1.2em;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   /*background-color: rgb(255, 80, 255);*/
 }
 
@@ -357,7 +355,7 @@ SECCION DE INICIO
   /*background-color: aquamarine;*/
 }
 
-.botones-section .botones{
+.botones-section .botones {
   border-color: #ff1b2d;
   border-style: solid;
   font-weight: bold;
@@ -372,10 +370,9 @@ SECCION DE INICIO
   /*background-color: rgb(255, 255, 0);*/
 }
 
-
 /*Seccion de imagen*/
 
-.imagen-contenedor{
+.imagen-contenedor {
   padding-left: 1em;
   padding-right: 1em;
   padding-top: 1em;
@@ -389,3 +386,71 @@ SECCION DE INICIO
   width: 360px;
   /*background-color: yellowgreen;*/
 }
+
+/****************
+SECCION DE PORTAFOLIO
+****************/
+
+/*Triangulo ROW*/
+.Portafolio {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: aqua;
+}
+
+.Portafolio .triangle {
+  font-size: 4rem;
+  color: #a6a6a6;
+  order: -1;
+}
+
+.triangle {
+  display: flex;
+  align-items: center;
+  margin-top: -260px;
+  /*background-color: darkgoldenrod;*/
+}
+
+#triangulo-portafolio {
+  background-color: darkgoldenrod;
+  margin-top: -400px;
+}
+
+/*Contenido Principal*/
+#main-portafolio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -16em;
+  background-color: beige;
+}
+
+/*Cabecera titulo*/
+#header-portafolio{
+  width: 100%;
+  margin: 0;
+  background-color: #b20317;
+}
+
+#header-portafolio h2{
+  margin: 0;
+  max-width: 5.9em;
+  background-color: #23b203;
+}
+
+#header-portafolio p{
+  margin-top: 25px;
+  font-size: 1.2em;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #b20395;
+}
+
+
+/*Carrusel de imagenes*/
+.carrusel-contendor{
+  width: 100%;
+  background-color: #036cb2;
+}
+
+
