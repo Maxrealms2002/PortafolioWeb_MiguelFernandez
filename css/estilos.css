@@ -396,7 +396,7 @@ SECCION DE PORTAFOLIO
   display: flex;
   width: 100%;
   flex-direction: row;
-  background-color: aqua;
+  /*background-color: aqua;*/
 }
 
 .Portafolio .triangle {
@@ -413,7 +413,7 @@ SECCION DE PORTAFOLIO
 }
 
 #triangulo-portafolio {
-  background-color: darkgoldenrod;
+  /*background-color: darkgoldenrod;*/
   margin-top: -400px;
 }
 
@@ -423,34 +423,34 @@ SECCION DE PORTAFOLIO
   flex-direction: column;
   justify-content: center;
   margin-top: -16em;
-  background-color: beige;
+  /*background-color: beige;*/
 }
 
 /*Cabecera titulo*/
 #header-portafolio{
   width: 100%;
   margin: 0;
-  background-color: #b20317;
+  /*background-color: #b20317;*/
 }
 
 #header-portafolio h2{
   margin: 0;
   max-width: 5.9em;
-  background-color: #23b203;
+  /*background-color: #23b203;*/
 }
 
 #header-portafolio p{
   margin-top: 25px;
   font-size: 1.2em;
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #b20395;
+  /*background-color: #b20395;*/
 }
 
 
 /*Carrusel de imagenes*/
 .carrusel-contendor{
   width: 100%;
-  background-color: #036cb2;
+  /*background-color: #036cb2;*/
 }
 
 
