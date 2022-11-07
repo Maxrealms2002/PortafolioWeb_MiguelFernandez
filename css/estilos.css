@@ -50,6 +50,10 @@ body {
   background-color: #ff1b2d;
 }
 
+.botones {
+  transition: 0.5s;
+}
+
 .botones:hover {
   color: #ff1b2d;
   background-color: #fff;
@@ -111,6 +115,10 @@ header {
   background-color: #292929;
 }
 
+.boton-idioma {
+  transition: 0.5s;
+}
+
 .boton-idioma:hover {
   color: #fff;
   border-color: #fff;
@@ -166,6 +174,13 @@ nav ul li a:hover {
   transition: 0.5s;
 }
 
+/*Pagina Actual*/
+#Seleccionado{
+  background-color: #b20317;
+  color: #fff;
+  transition: 0.5s;
+}
+
 .side-bar {
   display: flex;
   flex-direction: column;
@@ -190,6 +205,17 @@ Logotipo-Sidebar
 
 .side-bar-logo center h2 {
   color: #fff;
+}
+
+/*Seleccion del logotipo*/
+
+#Logo-Seleccion{
+  transition: 0.5s;
+}
+
+#Logo-Seleccion:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 /*Elementos Menu side bar*/
@@ -247,6 +273,11 @@ Logotipo-Sidebar
 .side-bar-redes a:hover,
 .side-bar-redes i:hover {
   color: #ff1b2d;
+  transition: 0.5s;
+}
+
+.side-bar-redes a,
+.side-bar-redes i {
   transition: 0.5s;
 }
 
