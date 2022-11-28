@@ -175,7 +175,7 @@ nav ul li a:hover {
 }
 
 /*Pagina Actual*/
-#Seleccionado{
+#Seleccionado {
   background-color: #b20317;
   color: #fff;
   transition: 0.5s;
@@ -209,11 +209,11 @@ Logotipo-Sidebar
 
 /*Seleccion del logotipo*/
 
-#Logo-Seleccion{
+#Logo-Seleccion {
   transition: 0.5s;
 }
 
-#Logo-Seleccion:hover{
+#Logo-Seleccion:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
@@ -449,7 +449,7 @@ SECCION DE PORTAFOLIO
 }
 
 /*Contenido Principal*/
-#main-portafolio{
+#main-portafolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -458,32 +458,68 @@ SECCION DE PORTAFOLIO
 }
 
 /*Cabecera titulo*/
-#header-portafolio{
+#header-portafolio {
   width: 100%;
   margin: 0;
   /*background-color: #b20317;*/
 }
 
-#header-portafolio h2{
+#header-portafolio h2 {
   margin: 0;
   max-width: 5.9em;
   /*background-color: #23b203;*/
 }
 
-#header-portafolio p{
+#header-portafolio p {
   margin-top: 25px;
   font-size: 1.2em;
   font-family: "Roboto Condensed", sans-serif;
   /*background-color: #b20395;*/
 }
 
-
 /*Carrusel de imagenes*/
-.carrusel-contendor{
-  width: 100%;
+.carousel {
+  /*background-color: rgb(59, 227, 25);*/
   /*background-color: #036cb2;*/
 }
 
+.carousel__contenedor {
+  /*background-color: rgb(207, 27, 171);*/
+  position: relative;
+  /*background-color: #036cb2;*/
+}
 
+.carousel__anterior,
+.carousel__siguiente{
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  /*background: none;*/
+  color: #fff;
+  opacity: 20%;
+}
 
+.carousel__anterior{
+  left: -30px;
+  background-color: #ff1b2d;
+}
 
+.carousel__siguiente{
+  right: -30px;
+}
+
+.carousel__lista {
+  /*background-color: rgb(255, 149, 0);*/
+  /*background-color: #036cb2;*/
+}
+
+.carousel__elemento {
+  /*background-color: aqua;*/
+  /*background-color: #036cb2;*/
+}

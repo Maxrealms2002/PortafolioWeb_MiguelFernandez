@@ -15,7 +15,8 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script src="https://kit.fontawesome.com/c3598481ba.js" crossorigin="anonymous"></script>
+    <!--<link rel="stylesheet" href="../css/glider.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
 </head>
 
 <body>
@@ -87,41 +88,57 @@
                     <p> Conoce los proyectos en los que he trabajado
                     </p>
                 </div>
-
-                <div class="carrusel-contendor">
-                    <h2>Proximamente imagenes redimensionadas</h2>
-                </div>
-
-                <!--
-                <div class="carrusel-portafolio">
-                    <div class="carrusel-contenedor">
-                        <button aria-label="Anterior" class="carrusel-anterior">
-                            <i class="fa-solid fa-circle-chevron-left"></i>
-                        </button>
-                        <div class="carrusel-lista">
-                            <div class="carrusel-elemento">
-                                <img src="../Assets/img/portafolio/IrregularVerbConcerter.png"
-                                    alt="Irregular Verb Converter">
-                                <p>Irregular Verb Converter</p>
-                            </div>
-                            <div class="carrusel-elemento">
-                                <img src="../Assets/img/portafolio/ChackayGrill.jpg" alt="Chack-kay Grill">
-                                <p>Chack-kay Grill</p>
-                            </div>
-                            <div class="carrusel-elemento">
-                                <img src="../Assets/img/portafolio/JanalKaab.jpg" alt="Janal Kaab">
-                                <p>Janal Kaab</p>
-                            </div>
-                        </div>
-                        <button aria-label="Siguiente" class="carrusel-siguiente">
-                            <i class="fa-solid fa-circle-chevron-right"></i>
-                        </button>
-                    </div>
-                </div>
--->
             </div>
         </section>
+        <div class="carousel">
+            <div class="carousel__contenedor">
+                <button aria-label="Anterior" class="carousel__anterior">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+        
+                <div class="carousel__lista">
+                    <div class="carousel__elemento">
+                        <img src="../Assets/img/portafolio/seguridad.png" alt="ciudad">
+                        <p>Ciudad de noche</p>
+                    </div>
+        
+                    <div class="carousel__elemento">
+                        <img src="../Assets/img/portafolio/seguridad.png" alt="seguridad">
+                        <p>Seguridad</p>
+                    </div>
+        
+                    <div class="carousel__elemento">
+                        <img src="../Assets/img/portafolio/city.png" alt="ciudad">
+                        <p>Ciudad de noche</p>
+                    </div>
+        
+                    <div class="carousel__elemento">
+                        <img src="../Assets/img/portafolio/city.png" alt="ciudad">
+                        <p>Ciudad de noche</p>
+                    </div>
+        
+                    <div class="carousel__elemento">
+                        <img src="../Assets/img/portafolio/city.png" alt="ciudad">
+                        <p>Ciudad de noche</p>
+                    </div>
+                </div>
+        
+                <button aria-label="Siguiente" class="carousel__siguiente">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        
+            <div role="tablist" class="carousel__indicadores"></div>
+        </div>
     </main>
+    
+
+    <!-- <script src="../js/glider.min.js"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/c3598481ba.js" crossorigin="anonymous"></script>
+    <script src="../js/app.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script> -->
 </body>
 
 </html>
